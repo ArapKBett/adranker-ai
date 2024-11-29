@@ -1,0 +1,16 @@
+/* allows to set Helvetica font*/
+@font-face {
+    font-family: "Helvetica";
+
+    src: url("https://fonts.gstatic.com/s/helvetica/v1/7Auop_0qiz-aVz7u3PJLcA.eot?#iefix")
+            format("embedded-opentype"),
+           url("https://fonts.gstatic.com/s/helvetica/v1/7Auop_0qiz-aVz7u3PJLcA.woff2")
+            format("woff2"),
+           url("https://fonts.gstatic.com/s/helvetica/v1/7Auop_0qiz-aVz7u3PJLcA.woff")
+            format("woff");
+}
+
+h1, p {
+    /* sets the text to Helvetica font */
+    font-family: Helvetica;
+}
