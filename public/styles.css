@@ -1,0 +1,32 @@
+/* public/styles.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+  text-align: center;
+}
+
+header {
+  background-color: #42b983;
+  padding: 20px;
+  color: white;
+}
+
+.logo {
+  width: 100px;
+  height: auto;
+}
+
+main {
+  padding: 20px;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
