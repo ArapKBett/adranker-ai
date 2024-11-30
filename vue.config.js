@@ -2,7 +2,7 @@ const { defineConfig } = require('@vue/cli-service');
 
 module.exports = defineConfig({
   // Base URL for the application
-  publicPath: process.env.NODE_ENV === 'production' ? '/production-sub-path/' : '/',
+  publicPath: process.env.NODE_ENV === 'production' ? '/adranker-ai/' : '/',
 
   // Output directory for the build
   outputDir: 'dist',
