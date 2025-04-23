@@ -1,6 +1,4 @@
-const { defineConfig } = require('@vue/cli-service');
-
-module.exports = defineConfig({
+module.exports = {
   // Base URL for the application
   publicPath: process.env.NODE_ENV === 'production' ? '/adranker-ai/' : '/',
 
@@ -38,4 +36,4 @@ module.exports = defineConfig({
   pluginOptions: {
     // Options for third-party plugins
   },
-});
+};
